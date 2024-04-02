@@ -24,6 +24,8 @@
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
+.assets_helper/*
+
 # Built VS Code extensions
 *.vsix
 

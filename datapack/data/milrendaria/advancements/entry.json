@@ -1,24 +1,22 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:diamond_block",
-        "nbt": "{Enchantments:[{}]}"
-      },
-      "title": "Welcome to the world of Datapacks",
-      "description": "Enter your first world with a datapack",
-      "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": true,
-      "background": "minecraft:textures/block/ancient_debris_side.png"
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_block"
     },
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
-      }
-    },
-    "rewards": {
-      "experience": 50
+    "title": "Welcome to Milrendaria",
+    "description": "Explore the possibilites in this new world",
+    "background": "minecraft:textures/block/ancient_debris_side.png",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "experience": 50
   }
-  
+}

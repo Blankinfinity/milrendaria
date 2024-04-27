@@ -5,7 +5,56 @@
         "settings": "minecraft:overworld",
         "biome_source": {
             "type": "minecraft:multi_noise",
-            "preset": "minecraft:overworld"
+            "biomes": [
+                {
+                  "biome": "minecraft:ice_spikes",
+                  "parameters": {
+                    "temperature": -0.8,
+                    "humidity": 0.5,
+                    "continentalness": 1,
+                    "erosion": 0.4,
+                    "weirdness": 0.8,
+                    "depth": 0.8,
+                    "offset": 0.5
+                  }
+                },
+                {
+                  "biome": "minecraft:frozen_river",
+                  "parameters": {
+                    "temperature": -1,
+                    "humidity": 1,
+                    "continentalness": 0,
+                    "erosion": 0,
+                    "weirdness": -0.8,
+                    "depth": 0,
+                    "offset": 0.9
+                  }
+                },
+                {
+                  "biome": "minecraft:snowy_beach",
+                  "parameters": {
+                    "temperature": -1,
+                    "humidity": 0.5,
+                    "continentalness": 0.2,
+                    "erosion": 0.8,
+                    "weirdness": -1,
+                    "depth": -1,
+                    "offset": 0
+                  }
+                },
+                {
+                  "biome": "minecraft:frozen_ocean",
+                  "parameters": {
+                    "temperature": -1,
+                    "humidity": 1,
+                    "continentalness": 0,
+                    "erosion": 0,
+                    "weirdness": 0.4,
+                    "depth": 0,
+                    "offset": 0
+                  }
+                }
+              ]
         }
     }
 }

@@ -1,0 +1,11 @@
+{
+    "type": "milrendaria:the_frost",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "minecraft:overworld",
+        "biome_source": {
+            "type": "minecraft:fixed",
+            "biome": "ice_spikes"
+        }
+    }
+}

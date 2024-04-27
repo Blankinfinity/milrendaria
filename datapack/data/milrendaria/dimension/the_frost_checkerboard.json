@@ -1,0 +1,17 @@
+{
+    "type": "milrendaria:the_frost",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "minecraft:overworld",
+        "biome_source": {
+          "type": "minecraft:checkerboard",
+          "scale": 1,
+          "biomes": [
+            "minecraft:plains",
+            "minecraft:badlands",
+            "minecraft:bamboo_jungle",
+            "minecraft:beach"
+          ]
+        }
+      }
+}
